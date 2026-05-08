@@ -1,0 +1,40 @@
+2026-05-07 11:42:49,497 - telemetry_logger - INFO - TraceID: 4ecdd1bb-eb03-4a08-a26e-977a40cda48b - Incoming Request: GET http://127.0.0.1:8000/ | Payload: null
+2026-05-07 11:42:49,498 - telemetry_logger - INFO - TraceID: 4ecdd1bb-eb03-4a08-a26e-977a40cda48b - Outgoing Response: GET http://127.0.0.1:8000/ | Status: 404
+2026-05-07 11:42:49,593 - telemetry_logger - INFO - TraceID: b4aefe4c-9e7e-4c88-b7a0-2b1d74c81953 - Incoming Request: GET http://127.0.0.1:8000/favicon.ico | Payload: null
+2026-05-07 11:42:49,594 - telemetry_logger - INFO - TraceID: b4aefe4c-9e7e-4c88-b7a0-2b1d74c81953 - Outgoing Response: GET http://127.0.0.1:8000/favicon.ico | Status: 404
+2026-05-07 11:42:54,452 - telemetry_logger - INFO - TraceID: ed43a087-fa87-4971-9a24-42cd71cb0a2b - Incoming Request: GET http://127.0.0.1:8000/docs | Payload: null
+2026-05-07 11:42:54,453 - telemetry_logger - INFO - TraceID: ed43a087-fa87-4971-9a24-42cd71cb0a2b - Outgoing Response: GET http://127.0.0.1:8000/docs | Status: 200
+2026-05-07 11:42:54,614 - telemetry_logger - INFO - TraceID: a4c59e59-c6eb-41cf-bd14-ba34d18af38b - Incoming Request: GET http://127.0.0.1:8000/openapi.json | Payload: null
+2026-05-07 11:42:54,626 - telemetry_logger - INFO - TraceID: a4c59e59-c6eb-41cf-bd14-ba34d18af38b - Outgoing Response: GET http://127.0.0.1:8000/openapi.json | Status: 200
+2026-05-07 11:47:21,472 - telemetry_logger - INFO - TraceID: e45e505f-cac9-4b4f-824f-860106c2ed25 - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "Rakshith L", "phone_number": "1234567890", "plan_id": 1}
+2026-05-07 11:47:21,538 - telemetry_logger - WARNING - TraceID: e45e505f-cac9-4b4f-824f-860106c2ed25 - Vendor API experiencing delays...
+2026-05-07 11:47:31,539 - telemetry_logger - INFO - TraceID: e45e505f-cac9-4b4f-824f-860106c2ed25 - Vendor API call completed.
+2026-05-07 11:47:31,540 - telemetry_logger - INFO - TraceID: e45e505f-cac9-4b4f-824f-860106c2ed25 - Outgoing Response: POST http://localhost:8000/subscribers/ | Status: 200
+2026-05-07 11:48:40,564 - telemetry_logger - INFO - TraceID: af4cd5f4-0781-4ac0-83e5-135a9fe6a0a4 - Incoming Request: POST http://localhost:8000/seed | Payload: null
+2026-05-07 11:48:40,619 - telemetry_logger - INFO - TraceID: af4cd5f4-0781-4ac0-83e5-135a9fe6a0a4 - Outgoing Response: POST http://localhost:8000/seed | Status: 200
+2026-05-07 11:49:34,722 - telemetry_logger - INFO - TraceID: dc9260ab-2cae-45b6-b283-91f080f24965 - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "suresh", "phone_number": "3748597137", "plan_id": 2}
+2026-05-07 11:49:34,743 - telemetry_logger - WARNING - TraceID: dc9260ab-2cae-45b6-b283-91f080f24965 - Vendor API experiencing delays...
+2026-05-07 11:49:44,745 - telemetry_logger - INFO - TraceID: dc9260ab-2cae-45b6-b283-91f080f24965 - Vendor API call completed.
+2026-05-07 11:49:44,745 - telemetry_logger - INFO - TraceID: dc9260ab-2cae-45b6-b283-91f080f24965 - Outgoing Response: POST http://localhost:8000/subscribers/ | Status: 200
+2026-05-07 11:51:23,177 - telemetry_logger - INFO - TraceID: fa8ad012-5426-4c64-9756-42e99091a51b - Incoming Request: PUT http://localhost:8000/subscribers/1/plan | Payload: {"quota_gb": "10 GB"}
+2026-05-07 11:51:23,217 - telemetry_logger - INFO - TraceID: fa8ad012-5426-4c64-9756-42e99091a51b - Outgoing Response: PUT http://localhost:8000/subscribers/1/plan | Status: 422
+2026-05-07 11:51:59,628 - telemetry_logger - INFO - TraceID: 83827da4-3d13-4315-bfeb-8e0e9303b34b - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "suresh", "phone_number": "3748597137"}
+2026-05-07 11:52:19,950 - telemetry_logger - INFO - TraceID: 790f7e3a-2740-4112-9f21-c5bb01e9f8cf - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "suresh", "phone_number": "3748597137"}
+2026-05-07 11:52:54,199 - telemetry_logger - INFO - TraceID: e17a1546-f0b1-4c7b-aa2d-6983f0dbc8e1 - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "ramesh", "phone_number": "5432167890"}
+2026-05-07 11:52:54,248 - telemetry_logger - WARNING - TraceID: e17a1546-f0b1-4c7b-aa2d-6983f0dbc8e1 - Vendor API experiencing delays...
+2026-05-07 11:53:04,249 - telemetry_logger - INFO - TraceID: e17a1546-f0b1-4c7b-aa2d-6983f0dbc8e1 - Vendor API call completed.
+2026-05-07 11:53:04,249 - telemetry_logger - INFO - TraceID: e17a1546-f0b1-4c7b-aa2d-6983f0dbc8e1 - Outgoing Response: POST http://localhost:8000/subscribers/ | Status: 200
+2026-05-07 11:54:48,199 - telemetry_logger - INFO - TraceID: d739135b-5d4a-48d0-b011-2d8a641fda69 - Incoming Request: GET http://localhost:8000/subscribers/3 | Payload: null
+2026-05-07 11:55:01,755 - telemetry_logger - INFO - TraceID: 7f41db23-c57a-487c-a9bc-6a5ba7732064 - Incoming Request: GET http://localhost:8000/subscribers/3 | Payload: null
+2026-05-07 11:56:28,453 - telemetry_logger - INFO - TraceID: 16b4b952-a858-4c36-aa77-e92a521cba46 - Incoming Request: GET http://localhost:8000/subscribers/4 | Payload: null
+2026-05-07 11:56:28,456 - telemetry_logger - INFO - TraceID: 16b4b952-a858-4c36-aa77-e92a521cba46 - Outgoing Response: GET http://localhost:8000/subscribers/4 | Status: 404
+2026-05-07 11:56:46,521 - telemetry_logger - INFO - TraceID: f9322a65-d692-4673-8480-889df198d137 - Incoming Request: GET http://localhost:8000/subscribers/3 | Payload: null
+2026-05-07 11:57:48,171 - telemetry_logger - INFO - TraceID: b7a8f2b9-fc7d-4d4a-aa20-08b74f4fa1ff - Incoming Request: DELETE http://localhost:8000/subscribers/1 | Payload: null
+2026-05-07 11:57:48,212 - telemetry_logger - WARNING - TraceID: b7a8f2b9-fc7d-4d4a-aa20-08b74f4fa1ff - Subscriber 1 marked for deletion, transaction left open! (database is locked)
+2026-05-07 11:57:48,213 - telemetry_logger - INFO - TraceID: b7a8f2b9-fc7d-4d4a-aa20-08b74f4fa1ff - Outgoing Response: DELETE http://localhost:8000/subscribers/1 | Status: 200
+2026-05-07 11:58:35,763 - telemetry_logger - INFO - TraceID: 52655efe-8907-4433-9769-ab9d7e647dc1 - Incoming Request: POST http://localhost:8000/subscribers/ | Payload: {"name": "Rajesh", "phone_number": "1234509876", "plan_id": 2}
+2026-05-07 12:01:29,733 - telemetry_logger - INFO - TraceID: f28f2bbb-602a-483f-a08a-7c9769c89b4a - Incoming Request: GET http://localhost:8000/subscribers/4 | Payload: null
+2026-05-07 12:01:29,736 - telemetry_logger - INFO - TraceID: f28f2bbb-602a-483f-a08a-7c9769c89b4a - Outgoing Response: GET http://localhost:8000/subscribers/4 | Status: 404
+2026-05-07 12:03:16,929 - telemetry_logger - INFO - TraceID: 0c843637-0076-4b5d-a38d-05d6e81d8016 - Incoming Request: GET http://localhost:8000/subscribers/3 | Payload: null
+2026-05-07 12:04:12,724 - telemetry_logger - INFO - TraceID: fca0e6bb-06ed-4e68-ad2d-55dc89f27d63 - Incoming Request: GET http://localhost:8000/subscribers/2 | Payload: null
+2026-05-07 12:04:12,729 - telemetry_logger - INFO - TraceID: fca0e6bb-06ed-4e68-ad2d-55dc89f27d63 - Outgoing Response: GET http://localhost:8000/subscribers/2 | Status: 200
