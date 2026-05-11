@@ -38,3 +38,202 @@
 2026-05-07 12:03:16,929 - telemetry_logger - INFO - TraceID: 0c843637-0076-4b5d-a38d-05d6e81d8016 - Incoming Request: GET http://localhost:8000/subscribers/3 | Payload: null
 2026-05-07 12:04:12,724 - telemetry_logger - INFO - TraceID: fca0e6bb-06ed-4e68-ad2d-55dc89f27d63 - Incoming Request: GET http://localhost:8000/subscribers/2 | Payload: null
 2026-05-07 12:04:12,729 - telemetry_logger - INFO - TraceID: fca0e6bb-06ed-4e68-ad2d-55dc89f27d63 - Outgoing Response: GET http://localhost:8000/subscribers/2 | Status: 200
+2026-05-11 08:59:44,605 - telemetry_logger - INFO - TraceID: b09bf7bd-c0b0-471b-a686-9d48d5d0464b - Incoming Request: GET http://localhost:8000/subscribers/1 | Payload: null
+2026-05-11 08:59:44,656 - telemetry_logger - INFO - TraceID: b09bf7bd-c0b0-471b-a686-9d48d5d0464b - Outgoing Response: GET http://localhost:8000/subscribers/1 | Status: 200
+2026-05-11 09:08:59,762 - telemetry_logger - INFO - TraceID: 6b308054-958f-46cd-abc7-dfd6852ff08e - Incoming Request: POST http://localhost:8000/subscribers/
+2026-05-11 09:08:59,828 - telemetry_logger - INFO - TraceID: 6b308054-958f-46cd-abc7-dfd6852ff08e - Vendor API call completed.
+2026-05-11 09:08:59,829 - telemetry_logger - INFO - TraceID: 6b308054-958f-46cd-abc7-dfd6852ff08e - Outgoing Response: POST http://localhost:8000/subscribers/ | Status: 200
+2026-05-11 09:09:11,627 - telemetry_logger - INFO - TraceID: b306c0b5-1606-4fec-a940-3217af036270 - Incoming Request: GET http://localhost:8000/subscribers/2
+2026-05-11 09:09:11,631 - telemetry_logger - INFO - TraceID: b306c0b5-1606-4fec-a940-3217af036270 - Outgoing Response: GET http://localhost:8000/subscribers/2 | Status: 200
+2026-05-11 09:09:17,627 - telemetry_logger - INFO - TraceID: f98fbe3b-83f2-483e-ba43-1e14c2384ae4 - Incoming Request: GET http://localhost:8000/subscribers/4
+2026-05-11 09:09:17,631 - telemetry_logger - INFO - TraceID: f98fbe3b-83f2-483e-ba43-1e14c2384ae4 - Outgoing Response: GET http://localhost:8000/subscribers/4 | Status: 200
+2026-05-11 09:09:24,025 - telemetry_logger - INFO - TraceID: 881c894f-8ac1-40ae-bffb-20ec57ff91a8 - Incoming Request: GET http://localhost:8000/subscribers/5
+2026-05-11 09:09:24,027 - telemetry_logger - INFO - TraceID: 881c894f-8ac1-40ae-bffb-20ec57ff91a8 - Outgoing Response: GET http://localhost:8000/subscribers/5 | Status: 404
+2026-05-11 09:17:26,501 - telemetry_logger - INFO - TraceID: 8e50505d-b21e-4383-a2a0-eae3419a6ddb - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:17:26,502 - telemetry_logger - INFO - TraceID: 8e50505d-b21e-4383-a2a0-eae3419a6ddb - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:17:28,543 - telemetry_logger - INFO - TraceID: 734171c7-e3a7-4f15-bbd1-03140021265e - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:17:28,544 - telemetry_logger - INFO - TraceID: 734171c7-e3a7-4f15-bbd1-03140021265e - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:17:30,585 - telemetry_logger - INFO - TraceID: f02b7554-c74a-475e-9848-4706f81ee4fb - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:17:30,586 - telemetry_logger - INFO - TraceID: f02b7554-c74a-475e-9848-4706f81ee4fb - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:17:32,629 - telemetry_logger - INFO - TraceID: 2dd75486-16d8-4a15-8fc8-c448955759d5 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:17:32,630 - telemetry_logger - INFO - TraceID: 2dd75486-16d8-4a15-8fc8-c448955759d5 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:17:34,682 - telemetry_logger - INFO - TraceID: 20df9112-15e3-42e7-9dea-6025dee2ecc2 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:17:34,683 - telemetry_logger - INFO - TraceID: 20df9112-15e3-42e7-9dea-6025dee2ecc2 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:17:41,717 - telemetry_logger - INFO - TraceID: ce7c4c5d-c5b1-4128-adf6-b1cc5aa12fe0 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:17:41,718 - telemetry_logger - INFO - TraceID: ce7c4c5d-c5b1-4128-adf6-b1cc5aa12fe0 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:17:43,774 - telemetry_logger - INFO - TraceID: b3c6ddc7-b3ab-46c8-af74-2b4481ab69f2 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:17:43,775 - telemetry_logger - INFO - TraceID: b3c6ddc7-b3ab-46c8-af74-2b4481ab69f2 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:17:45,800 - telemetry_logger - INFO - TraceID: 52e20dd1-34b2-4413-ace3-b32baf8b356d - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:17:45,800 - telemetry_logger - INFO - TraceID: 52e20dd1-34b2-4413-ace3-b32baf8b356d - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:17:47,844 - telemetry_logger - INFO - TraceID: b4f413e7-253b-4979-97ea-ff1695eb83a4 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:17:47,845 - telemetry_logger - INFO - TraceID: b4f413e7-253b-4979-97ea-ff1695eb83a4 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:17:49,907 - telemetry_logger - INFO - TraceID: 6f3aabe1-69ed-4210-a4f4-0a220f02f4d2 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:17:49,909 - telemetry_logger - INFO - TraceID: 6f3aabe1-69ed-4210-a4f4-0a220f02f4d2 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:17:56,916 - telemetry_logger - INFO - TraceID: b0c6c275-65f9-4e6c-9139-b184c60d4059 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:17:56,917 - telemetry_logger - INFO - TraceID: b0c6c275-65f9-4e6c-9139-b184c60d4059 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:17:58,974 - telemetry_logger - INFO - TraceID: 9b0eec16-cb9b-478c-89e7-5e770d6bbb1c - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:17:58,975 - telemetry_logger - INFO - TraceID: 9b0eec16-cb9b-478c-89e7-5e770d6bbb1c - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:18:01,047 - telemetry_logger - INFO - TraceID: f59d6319-c341-4928-8895-e2cf598decda - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:18:01,047 - telemetry_logger - INFO - TraceID: f59d6319-c341-4928-8895-e2cf598decda - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:18:03,115 - telemetry_logger - INFO - TraceID: 5b5656d2-525a-41cb-9d0d-73953b414c18 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:18:03,116 - telemetry_logger - INFO - TraceID: 5b5656d2-525a-41cb-9d0d-73953b414c18 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:18:05,162 - telemetry_logger - INFO - TraceID: 2b4f8834-ea3a-4d20-aa50-b13f8e36f3c1 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:18:05,163 - telemetry_logger - INFO - TraceID: 2b4f8834-ea3a-4d20-aa50-b13f8e36f3c1 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:18:14,570 - telemetry_logger - INFO - TraceID: f90c1032-3262-415c-bfb1-0ad454ce8230 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:18:14,571 - telemetry_logger - INFO - TraceID: f90c1032-3262-415c-bfb1-0ad454ce8230 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:18:16,620 - telemetry_logger - INFO - TraceID: e25300ac-adff-4fed-a7fe-552bfc758635 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:18:16,620 - telemetry_logger - INFO - TraceID: e25300ac-adff-4fed-a7fe-552bfc758635 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:18:18,658 - telemetry_logger - INFO - TraceID: 99653f23-a297-40fd-b2d2-364b319d3a62 - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:18:18,659 - telemetry_logger - INFO - TraceID: 99653f23-a297-40fd-b2d2-364b319d3a62 - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:18:20,715 - telemetry_logger - INFO - TraceID: 8dcbfb8b-c26b-46d3-8b57-e687561e2f5d - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:18:20,716 - telemetry_logger - INFO - TraceID: 8dcbfb8b-c26b-46d3-8b57-e687561e2f5d - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:18:22,829 - telemetry_logger - INFO - TraceID: d5192cf8-ddb2-44d5-8f5d-5058e2154da1 - Incoming Request: GET http://localhost:8000/api/cache/count
+2026-05-11 09:18:22,830 - telemetry_logger - INFO - TraceID: d5192cf8-ddb2-44d5-8f5d-5058e2154da1 - Outgoing Response: GET http://localhost:8000/api/cache/count | Status: 404
+2026-05-11 09:18:24,883 - telemetry_logger - INFO - TraceID: 8916acfe-177a-488c-8fd4-a0aaf2a78f43 - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:18:24,884 - telemetry_logger - INFO - TraceID: 8916acfe-177a-488c-8fd4-a0aaf2a78f43 - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:18:26,942 - telemetry_logger - INFO - TraceID: fa35ed15-a704-4130-9fae-b0b177056c3f - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:18:26,942 - telemetry_logger - INFO - TraceID: fa35ed15-a704-4130-9fae-b0b177056c3f - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:19:01,929 - telemetry_logger - INFO - TraceID: 5bcc5b81-0e4c-4c1f-9daa-e10c84fcfbc7 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:19:01,930 - telemetry_logger - INFO - TraceID: 5bcc5b81-0e4c-4c1f-9daa-e10c84fcfbc7 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:19:03,778 - telemetry_logger - INFO - TraceID: 431d401b-3186-45d0-906b-c5a82792ab49 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:19:03,779 - telemetry_logger - INFO - TraceID: 431d401b-3186-45d0-906b-c5a82792ab49 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:19:05,836 - telemetry_logger - INFO - TraceID: 8a7af654-9a9d-4124-a609-26392ed5f4dd - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:19:05,836 - telemetry_logger - INFO - TraceID: 8a7af654-9a9d-4124-a609-26392ed5f4dd - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:19:07,888 - telemetry_logger - INFO - TraceID: 2575bd27-85cb-4b14-9223-b3ac7455702b - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:19:07,889 - telemetry_logger - INFO - TraceID: 2575bd27-85cb-4b14-9223-b3ac7455702b - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:19:09,948 - telemetry_logger - INFO - TraceID: 8bf0c7ec-712f-4a6b-8010-b74548000b3a - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:19:09,950 - telemetry_logger - INFO - TraceID: 8bf0c7ec-712f-4a6b-8010-b74548000b3a - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:19:11,998 - telemetry_logger - INFO - TraceID: dfb3b95d-9871-4ccf-8c8b-27c4751dda60 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:19:11,999 - telemetry_logger - INFO - TraceID: dfb3b95d-9871-4ccf-8c8b-27c4751dda60 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:19:12,567 - telemetry_logger - INFO - TraceID: 010581e3-b846-4f1a-b187-48ee620f4f9b - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:19:12,568 - telemetry_logger - INFO - TraceID: 010581e3-b846-4f1a-b187-48ee620f4f9b - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:19:14,604 - telemetry_logger - INFO - TraceID: 910a34fc-3ae0-4be9-b5e3-32a42b345d3d - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:19:14,605 - telemetry_logger - INFO - TraceID: 910a34fc-3ae0-4be9-b5e3-32a42b345d3d - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:19:16,637 - telemetry_logger - INFO - TraceID: 0db180df-681c-4cd1-892a-450e402c78c7 - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:19:16,637 - telemetry_logger - INFO - TraceID: 0db180df-681c-4cd1-892a-450e402c78c7 - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:19:18,678 - telemetry_logger - INFO - TraceID: 7a678516-57f7-4926-9d57-a24857e5d3f1 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:19:18,679 - telemetry_logger - INFO - TraceID: 7a678516-57f7-4926-9d57-a24857e5d3f1 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:19:20,726 - telemetry_logger - INFO - TraceID: 3d57c98d-41ea-4efb-9e0e-23a60637624c - Incoming Request: GET http://localhost:8000/api/logs/content
+2026-05-11 09:19:20,726 - telemetry_logger - INFO - TraceID: 3d57c98d-41ea-4efb-9e0e-23a60637624c - Outgoing Response: GET http://localhost:8000/api/logs/content | Status: 404
+2026-05-11 09:21:09,176 - telemetry_logger - INFO - TraceID: dfb018ef-4aa3-4bfd-8dcc-b033fd8c2ca7 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:21:09,176 - telemetry_logger - INFO - TraceID: dfb018ef-4aa3-4bfd-8dcc-b033fd8c2ca7 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:21:11,226 - telemetry_logger - INFO - TraceID: 1aa078cb-1434-46c9-b046-2ca4aa59c258 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:21:11,228 - telemetry_logger - INFO - TraceID: 1aa078cb-1434-46c9-b046-2ca4aa59c258 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:21:13,268 - telemetry_logger - INFO - TraceID: 5dcd1d81-12a7-4fab-ab14-ad129071d76a - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:21:13,269 - telemetry_logger - INFO - TraceID: 5dcd1d81-12a7-4fab-ab14-ad129071d76a - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:21:15,303 - telemetry_logger - INFO - TraceID: 186cccb4-afb4-46f3-a447-7118db6e8346 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:21:15,304 - telemetry_logger - INFO - TraceID: 186cccb4-afb4-46f3-a447-7118db6e8346 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:21:17,331 - telemetry_logger - INFO - TraceID: b80e3a15-7c7c-4402-8312-98ba38b3a9aa - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:21:17,332 - telemetry_logger - INFO - TraceID: b80e3a15-7c7c-4402-8312-98ba38b3a9aa - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:21:31,923 - telemetry_logger - INFO - TraceID: 4250b479-a1b1-4f8b-bb8e-3e98fcc81e52 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:21:31,924 - telemetry_logger - INFO - TraceID: 4250b479-a1b1-4f8b-bb8e-3e98fcc81e52 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:21:33,971 - telemetry_logger - INFO - TraceID: 46799580-756b-4bce-914c-044c1a568bc3 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:21:33,972 - telemetry_logger - INFO - TraceID: 46799580-756b-4bce-914c-044c1a568bc3 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:21:36,005 - telemetry_logger - INFO - TraceID: dc513bbe-649f-4af5-a1fb-b3c3339aad4c - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:21:36,005 - telemetry_logger - INFO - TraceID: dc513bbe-649f-4af5-a1fb-b3c3339aad4c - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:21:38,037 - telemetry_logger - INFO - TraceID: b9d40cca-2de6-4e14-9c70-fe158bd9fb38 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:21:38,038 - telemetry_logger - INFO - TraceID: b9d40cca-2de6-4e14-9c70-fe158bd9fb38 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:21:40,067 - telemetry_logger - INFO - TraceID: 70a69bc5-286d-4955-9368-c036b3c85a1e - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:21:40,068 - telemetry_logger - INFO - TraceID: 70a69bc5-286d-4955-9368-c036b3c85a1e - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:21:51,402 - telemetry_logger - INFO - TraceID: 6fe0175f-d4d4-4d48-b8aa-5c7fed085562 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:21:51,403 - telemetry_logger - INFO - TraceID: 6fe0175f-d4d4-4d48-b8aa-5c7fed085562 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:21:53,447 - telemetry_logger - INFO - TraceID: 86d107f7-aeec-4400-bd67-fd083b4736a7 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:21:53,448 - telemetry_logger - INFO - TraceID: 86d107f7-aeec-4400-bd67-fd083b4736a7 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:21:55,243 - telemetry_logger - INFO - TraceID: 88763d79-bd84-436b-a245-8f42db2b0c48 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:21:55,244 - telemetry_logger - INFO - TraceID: 88763d79-bd84-436b-a245-8f42db2b0c48 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:21:57,303 - telemetry_logger - INFO - TraceID: 0669cde1-e664-4eae-86d1-5cfa997bf118 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:21:57,303 - telemetry_logger - INFO - TraceID: 0669cde1-e664-4eae-86d1-5cfa997bf118 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:22:06,117 - telemetry_logger - INFO - TraceID: 0628bdf5-2733-44ee-a00a-faaa168dd445 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:22:06,117 - telemetry_logger - INFO - TraceID: 0628bdf5-2733-44ee-a00a-faaa168dd445 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:22:06,717 - telemetry_logger - INFO - TraceID: eeff760a-bb2f-49c7-b8b1-6e277d6fab36 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:22:06,717 - telemetry_logger - INFO - TraceID: eeff760a-bb2f-49c7-b8b1-6e277d6fab36 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:22:08,151 - telemetry_logger - INFO - TraceID: ff51b6ef-91c1-4420-baac-ae67b554d42b - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:22:08,151 - telemetry_logger - INFO - TraceID: ff51b6ef-91c1-4420-baac-ae67b554d42b - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:22:08,751 - telemetry_logger - INFO - TraceID: 736ddebb-b4a3-4bdc-80ae-a971d5b0fb7d - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:22:08,752 - telemetry_logger - INFO - TraceID: 736ddebb-b4a3-4bdc-80ae-a971d5b0fb7d - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:22:10,182 - telemetry_logger - INFO - TraceID: 40498dad-0ae0-4307-a0d7-1382d12da377 - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:22:10,182 - telemetry_logger - INFO - TraceID: 40498dad-0ae0-4307-a0d7-1382d12da377 - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:22:10,784 - telemetry_logger - INFO - TraceID: 350ce286-1d2f-4dc0-8e2e-becc983f2d2e - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:22:10,785 - telemetry_logger - INFO - TraceID: 350ce286-1d2f-4dc0-8e2e-becc983f2d2e - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:22:12,207 - telemetry_logger - INFO - TraceID: 2ae43a94-f78e-4aa2-8f6b-4c8596b93fc6 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:22:12,207 - telemetry_logger - INFO - TraceID: 2ae43a94-f78e-4aa2-8f6b-4c8596b93fc6 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:22:12,835 - telemetry_logger - INFO - TraceID: 62242ea6-0e44-435b-962f-26bd3a220f9e - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:22:12,836 - telemetry_logger - INFO - TraceID: 62242ea6-0e44-435b-962f-26bd3a220f9e - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:22:14,246 - telemetry_logger - INFO - TraceID: 85b4bffb-4b4b-49c5-86e5-ab16cb582ec6 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:22:14,247 - telemetry_logger - INFO - TraceID: 85b4bffb-4b4b-49c5-86e5-ab16cb582ec6 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:22:14,885 - telemetry_logger - INFO - TraceID: 423b9f0f-4b6e-47ea-9614-f5305c3b0c1c - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:22:14,886 - telemetry_logger - INFO - TraceID: 423b9f0f-4b6e-47ea-9614-f5305c3b0c1c - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:22:18,116 - telemetry_logger - INFO - TraceID: c9de4b4b-4495-498f-9d10-01cb402e2202 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:22:18,117 - telemetry_logger - INFO - TraceID: c9de4b4b-4495-498f-9d10-01cb402e2202 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:22:19,630 - telemetry_logger - INFO - TraceID: 71b0b2f7-da38-467d-a39f-a4611a7882c5 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:22:19,631 - telemetry_logger - INFO - TraceID: 71b0b2f7-da38-467d-a39f-a4611a7882c5 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:22:21,684 - telemetry_logger - INFO - TraceID: 3dd0461f-42a7-4da0-a531-8500d52b18b9 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:22:21,684 - telemetry_logger - INFO - TraceID: 3dd0461f-42a7-4da0-a531-8500d52b18b9 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:22:23,717 - telemetry_logger - INFO - TraceID: 71e138ca-4b57-4902-b925-ca16490eceaa - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:22:23,717 - telemetry_logger - INFO - TraceID: 71e138ca-4b57-4902-b925-ca16490eceaa - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:22:25,740 - telemetry_logger - INFO - TraceID: 760a9f31-161e-473e-be47-615db5f6b361 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:22:25,741 - telemetry_logger - INFO - TraceID: 760a9f31-161e-473e-be47-615db5f6b361 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:22:27,762 - telemetry_logger - INFO - TraceID: 8da9c7a4-e738-42a6-8813-45f8d3c863c3 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:22:27,762 - telemetry_logger - INFO - TraceID: 8da9c7a4-e738-42a6-8813-45f8d3c863c3 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:23:45,982 - telemetry_logger - INFO - TraceID: e49c68ea-5330-4f61-ae2a-87bb6deb702d - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:23:45,982 - telemetry_logger - INFO - TraceID: e49c68ea-5330-4f61-ae2a-87bb6deb702d - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:23:48,026 - telemetry_logger - INFO - TraceID: 33729cee-93c3-47c7-b739-e53d5b7aa70e - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:23:48,027 - telemetry_logger - INFO - TraceID: 33729cee-93c3-47c7-b739-e53d5b7aa70e - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:23:50,069 - telemetry_logger - INFO - TraceID: 19d963f3-fd10-4cf2-a7ad-182beb16e565 - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:23:50,069 - telemetry_logger - INFO - TraceID: 19d963f3-fd10-4cf2-a7ad-182beb16e565 - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:23:52,140 - telemetry_logger - INFO - TraceID: a731e2a1-4c5b-489c-830c-02cd2a8b734b - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:23:52,141 - telemetry_logger - INFO - TraceID: a731e2a1-4c5b-489c-830c-02cd2a8b734b - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:23:54,287 - telemetry_logger - INFO - TraceID: 10a22d41-6349-4199-8dba-8ab87d1f6c0c - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:23:54,288 - telemetry_logger - INFO - TraceID: 10a22d41-6349-4199-8dba-8ab87d1f6c0c - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:23:56,329 - telemetry_logger - INFO - TraceID: 70231cc0-a98c-440b-a894-7644a69dc728 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:23:56,329 - telemetry_logger - INFO - TraceID: 70231cc0-a98c-440b-a894-7644a69dc728 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:23:58,373 - telemetry_logger - INFO - TraceID: cace3110-7ebf-4c13-bb45-cf80f361c79f - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:23:58,374 - telemetry_logger - INFO - TraceID: cace3110-7ebf-4c13-bb45-cf80f361c79f - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:24:00,408 - telemetry_logger - INFO - TraceID: 0dd62770-d486-43bf-9234-5385b41f7fb3 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:24:00,410 - telemetry_logger - INFO - TraceID: 0dd62770-d486-43bf-9234-5385b41f7fb3 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:24:02,443 - telemetry_logger - INFO - TraceID: 1985086f-58f0-4e07-a22b-26eaacac1705 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:24:02,444 - telemetry_logger - INFO - TraceID: 1985086f-58f0-4e07-a22b-26eaacac1705 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:25:06,502 - telemetry_logger - INFO - TraceID: c52e6804-6acd-4c6b-b370-80c11e21c2f1 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:25:06,503 - telemetry_logger - INFO - TraceID: c52e6804-6acd-4c6b-b370-80c11e21c2f1 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:25:08,549 - telemetry_logger - INFO - TraceID: d2b2cd7d-b772-40d7-8aa8-80a3040e275a - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:25:08,550 - telemetry_logger - INFO - TraceID: d2b2cd7d-b772-40d7-8aa8-80a3040e275a - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:25:10,578 - telemetry_logger - INFO - TraceID: 973e53ed-3e82-4b7d-82b4-3afa5c2bd38c - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:25:10,579 - telemetry_logger - INFO - TraceID: 973e53ed-3e82-4b7d-82b4-3afa5c2bd38c - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:25:12,611 - telemetry_logger - INFO - TraceID: f0d52ce1-892d-4864-b776-0cf4aa36138a - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:25:12,611 - telemetry_logger - INFO - TraceID: f0d52ce1-892d-4864-b776-0cf4aa36138a - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:25:14,672 - telemetry_logger - INFO - TraceID: f0ffc927-fa3b-4099-a97d-d7b2d1aa9b88 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:25:14,680 - telemetry_logger - INFO - TraceID: f0ffc927-fa3b-4099-a97d-d7b2d1aa9b88 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:26:03,524 - telemetry_logger - INFO - TraceID: bc3d8a63-fdad-495c-982b-7708514f010b - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:26:03,525 - telemetry_logger - INFO - TraceID: bc3d8a63-fdad-495c-982b-7708514f010b - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:26:05,573 - telemetry_logger - INFO - TraceID: 297d0e09-dd11-4c13-bab4-b146a1545127 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:26:05,573 - telemetry_logger - INFO - TraceID: 297d0e09-dd11-4c13-bab4-b146a1545127 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:26:07,621 - telemetry_logger - INFO - TraceID: d82351f3-3b69-47ee-a6f6-68dcd7d5debe - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:26:07,622 - telemetry_logger - INFO - TraceID: d82351f3-3b69-47ee-a6f6-68dcd7d5debe - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:26:09,657 - telemetry_logger - INFO - TraceID: 808711db-2771-4f77-8f0e-0ad7c2e5a6f7 - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:26:09,658 - telemetry_logger - INFO - TraceID: 808711db-2771-4f77-8f0e-0ad7c2e5a6f7 - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:26:11,715 - telemetry_logger - INFO - TraceID: 23a71ae3-2f98-4ce4-b1b2-183b3ac7d4c5 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:26:11,716 - telemetry_logger - INFO - TraceID: 23a71ae3-2f98-4ce4-b1b2-183b3ac7d4c5 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:27:55,412 - telemetry_logger - INFO - TraceID: 2f96ffdd-47db-4e52-a5b5-98bda2ec79b4 - Incoming Request: GET http://localhost:8000/api/health
+2026-05-11 09:27:55,412 - telemetry_logger - INFO - TraceID: 2f96ffdd-47db-4e52-a5b5-98bda2ec79b4 - Outgoing Response: GET http://localhost:8000/api/health | Status: 404
+2026-05-11 09:27:57,468 - telemetry_logger - INFO - TraceID: 5643eedf-9def-41bf-99fe-6be518674f65 - Incoming Request: GET http://localhost:8000/api/llm/health
+2026-05-11 09:27:57,469 - telemetry_logger - INFO - TraceID: 5643eedf-9def-41bf-99fe-6be518674f65 - Outgoing Response: GET http://localhost:8000/api/llm/health | Status: 404
+2026-05-11 09:27:59,516 - telemetry_logger - INFO - TraceID: 8b1c096a-f32a-42af-a2b6-2570e71a651e - Incoming Request: GET http://localhost:8000/api/rag/status
+2026-05-11 09:27:59,517 - telemetry_logger - INFO - TraceID: 8b1c096a-f32a-42af-a2b6-2570e71a651e - Outgoing Response: GET http://localhost:8000/api/rag/status | Status: 404
+2026-05-11 09:28:01,567 - telemetry_logger - INFO - TraceID: c7d50915-7cff-4863-aea7-8ecaa1713cbc - Incoming Request: GET http://localhost:8000/api/scheduler/status
+2026-05-11 09:28:01,567 - telemetry_logger - INFO - TraceID: c7d50915-7cff-4863-aea7-8ecaa1713cbc - Outgoing Response: GET http://localhost:8000/api/scheduler/status | Status: 404
+2026-05-11 09:28:03,607 - telemetry_logger - INFO - TraceID: 850465ce-d59c-44ae-9c04-c473d517f9f9 - Incoming Request: GET http://localhost:8000/api/incidents
+2026-05-11 09:28:03,608 - telemetry_logger - INFO - TraceID: 850465ce-d59c-44ae-9c04-c473d517f9f9 - Outgoing Response: GET http://localhost:8000/api/incidents | Status: 404
+2026-05-11 09:57:38,324 - telemetry_logger - INFO - TraceID: 1f6e9d8f-c7b9-4fd4-9487-b201d1d6eb9b - Incoming Request: POST http://localhost:8000/sim/
+2026-05-11 09:57:38,334 - telemetry_logger - ERROR - TraceID: 1f6e9d8f-c7b9-4fd4-9487-b201d1d6eb9b - Failed to create SIM: ICCID 4627489572 length is 10. Activation system rejected it.
+2026-05-11 09:57:38,335 - telemetry_logger - INFO - TraceID: 1f6e9d8f-c7b9-4fd4-9487-b201d1d6eb9b - Outgoing Response: POST http://localhost:8000/sim/ | Status: 400
+2026-05-11 09:58:18,245 - telemetry_logger - INFO - TraceID: bab88644-8b5b-4c1d-8257-1bc6731e6d8d - Incoming Request: POST http://localhost:8000/sim/
+2026-05-11 09:58:18,246 - telemetry_logger - ERROR - TraceID: bab88644-8b5b-4c1d-8257-1bc6731e6d8d - Failed to create SIM: ICCID 1234567890 length is 10. Activation system rejected it.
+2026-05-11 09:58:18,247 - telemetry_logger - INFO - TraceID: bab88644-8b5b-4c1d-8257-1bc6731e6d8d - Outgoing Response: POST http://localhost:8000/sim/ | Status: 400
+2026-05-11 09:59:35,045 - telemetry_logger - INFO - TraceID: cc250f10-7eb4-4deb-a2f3-bf6181e5ab3b - Incoming Request: POST http://localhost:8000/sim/
+2026-05-11 09:59:35,081 - telemetry_logger - INFO - TraceID: cc250f10-7eb4-4deb-a2f3-bf6181e5ab3b - Outgoing Response: POST http://localhost:8000/sim/ | Status: 200
+2026-05-11 09:59:55,777 - telemetry_logger - INFO - TraceID: da48e3cc-ae6b-433f-9082-a9dc8fa8802d - Incoming Request: POST http://localhost:8000/sim/1/provision
+2026-05-11 09:59:55,791 - telemetry_logger - CRITICAL - TraceID: da48e3cc-ae6b-433f-9082-a9dc8fa8802d - CRITICAL SYSTEM FAILURE: HLR Provisioning Gateway unreachable. Data corruption imminent.
+2026-05-11 09:59:55,792 - telemetry_logger - INFO - TraceID: da48e3cc-ae6b-433f-9082-a9dc8fa8802d - Outgoing Response: POST http://localhost:8000/sim/1/provision | Status: 500
+2026-05-11 10:05:27,759 - telemetry_logger - INFO - TraceID: a9bb1c88-61e4-4134-859f-e704a0e2c5b0 - Incoming Request: GET http://localhost:8000/subscribers/3
+2026-05-11 10:06:45,424 - telemetry_logger - INFO - TraceID: eb671621-3a28-4a77-8960-f0a6a982e67c - Incoming Request: GET http://localhost:8000/subscribers/2
+2026-05-11 10:06:45,430 - telemetry_logger - INFO - TraceID: eb671621-3a28-4a77-8960-f0a6a982e67c - Outgoing Response: GET http://localhost:8000/subscribers/2 | Status: 200
